@@ -19,11 +19,14 @@ body{
     margin: 5px;
     padding: 5px;
     font-size: 30px;
-    
-    
+
 }
 .flex-container > div > a {
     text-decoration: none;
+}
+.flex-container > div > a:hover{
+    background-color: black;
+    color: #ebe534;
 }
 
 .side {
