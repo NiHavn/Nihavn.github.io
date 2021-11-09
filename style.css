@@ -1,31 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana',sans-serif;
+}
 body{
     color:black;
     background-color: #ebe534;
     text-align: center;
     font-size: 22px;
 }
-
-.flex-container {
+.header{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.658),rgba(4, 9, 30, 0.589)),url(images/OsloMet.jpg);
+    background-position: center;
+    background-size: cover; /* den strekker bildet for å dekke container */
+}
+.flex-container1 {
+    position: relative ;
     display: flex;
     flex-wrap: nowrap;
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    box-shadow: 3px 5px 4px #383838;
 }
-.flex-container > div {
-    background-color: #f1f1f1;
+.flex-container1 > div { 
     margin: 5px;
     padding: 5px;
     font-size: 30px;
     
 }
-
+.flex-container1 > div > a {
+    transition: 1s;
+    color: black;
+    font-weight: 650;
+    text-decoration: none;
+}
+.flex-container1 > div > a:hover {
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    
+}
 .side {
     max-width: 90vw;
     display: inline-block;
     box-sizing: border-box;
-    padding-top: 100px;
+    padding-top: 175px;
 }
 .tittel {
-    font-style: italic;
+    font-size: 30px;
+    color: white;
 }
-
-
+.avsnitt p{
+    color: white;
+    margin: 20px;
+}
+.mer{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1.5s;
+}
+.mer a{
+    color: white;
+    text-decoration: none;
+}
+.mer:hover{
+    background-color: black;
+}
