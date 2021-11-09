@@ -10,14 +10,20 @@ body{
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+
+    
 
 }
-.flex-container > div {
-    background-color: #f1f1f1;
+.flex-container > div { 
     margin: 5px;
     padding: 5px;
     font-size: 30px;
     
+    
+}
+.flex-container > div > a {
+    text-decoration: none;
 }
 
 .side {
