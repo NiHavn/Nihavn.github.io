@@ -5,7 +5,7 @@ body{
     font-size: 22px;
 }
 
-.flex-container {
+.flex-container1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -15,14 +15,14 @@ body{
     
 
 }
-.flex-container > div { 
+.flex-container1 > div { 
     margin: 5px;
     padding: 5px;
     font-size: 30px;
     
     
 }
-.flex-container > div > a {
+.flex-container1 > div > a {
     text-decoration: none;
 }
 
