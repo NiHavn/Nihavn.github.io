@@ -4,8 +4,8 @@
     font-family: 'Verdana',sans-serif;
 }
 body{
-    color:black;
-    background-color: #ebe534;
+    color:black;;
+    background-color: white;
     text-align: center;
     font-size: 22px;
 }
@@ -21,27 +21,28 @@ body{
     position: relative ;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: yellow;
-    box-shadow: 3px 5px 4px #383838;
+    background-color:  #ffd500;
+    box-shadow: 3px 5px 4px #000000;
 }
 .flex-container1 > div { 
     margin: 5px;
     padding: 5px;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .flex-container1 > div > a {
     transition: 1s;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 650;
     text-decoration: none;
 }
 .flex-container1 > div > a:hover {
-    background-color: black;
-    color: yellow;
+    border-color: #ffd500;
+    color: rgb(94, 94, 94);
     border-radius: 10px;
+    background-color: black;
     
 }
 .side {
@@ -66,6 +67,7 @@ body{
     border-radius: 10px;
     font-size: 20px;
     transition: 1.5s;
+    color: white;
 }
 .mer a{
     color: white;
