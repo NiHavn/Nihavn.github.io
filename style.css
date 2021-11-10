@@ -33,10 +33,29 @@ body{
 .tittel {
     font-style: italic;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 600px){
     body {
         background-color: black;
     }
+=======
+.avsnitt p{
+    color: white;
+    margin: 20px;
+}
+.mer{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1.5s;
+}
+.mer a{
+    color: white;
+    text-decoration: none;
+>>>>>>> parent of 5fdd704 (Margin og tittel)
 }
 
