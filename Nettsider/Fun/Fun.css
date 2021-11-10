@@ -51,7 +51,6 @@ body{
     display: inline-block;
     box-sizing: border-box;
     padding-top: 175px;
-
 }
 .tittel {
     font-size: 30px;
@@ -60,34 +59,4 @@ body{
 .avsnitt p{
     color: white;
     margin: 20px;
-}
-.mer{
-    display: inline-block;
-    border: 1px solid white;
-    padding: 20px;
-    margin-top: 60px;
-    border-radius: 10px;
-    font-size: 20px;
-    transition: 1.5s;
-    color: white;
-}
-.mer a{
-    color: white;
-    text-decoration: none;
-}
-.mer:hover{
-    background-color: black;
-}
-
-.innhold {
-    display: flex;
-    display: inline-block;
-    justify-content: space-around;
-    flex-direction: row;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-.innhold > div {
-    max-width: 40%;
 }
