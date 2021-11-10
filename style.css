@@ -15,7 +15,7 @@ body{
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.658),rgba(4, 9, 30, 0.589)),url(images/OsloMet.jpg);
     background-position: center;
-    background-size: cover; /* den strekker bildet for å dekke container */
+    background-size: cover; /* den strekker bildet for Ã¥ dekke container */
 }
 .flex-container1 {
     position: relative ;
