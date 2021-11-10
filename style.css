@@ -11,7 +11,7 @@ body{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: yellow;
 
 }
 .flex-container1 > div { 
