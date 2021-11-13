@@ -105,6 +105,7 @@ h2{
     color: rgb(74, 74, 74);
     width: 40%;
     text-align: center;
+    font-style: italic;
 }
 .gruppe1{
     display: flex;
@@ -129,6 +130,7 @@ h2{
     height: 50px;
     width: 140px;
     margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,5 +140,37 @@ h2{
 }
 .box > a:hover{
     font-size: 115%;
-    background-color: yellow;
+    background-color: #ffd500;
+}
+footer{
+    margin-top: 70px;
+    background-color: #ffd500;
+}
+.feet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+h4{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.medias{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medias img{
+    border-radius: 60px;
+    margin: 20px;
+    transition: 1.5s;
+}
+.medias img:hover{
+    opacity: 1;
 }
