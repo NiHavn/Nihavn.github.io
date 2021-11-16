@@ -145,6 +145,7 @@ h2{
 footer{
     margin-top: 70px;
     background-color: #ffd500;
+    border-radius: 1rem;
 }
 .feet{
     display: flex;
@@ -173,4 +174,49 @@ h4{
 }
 .medias img:hover{
     opacity: 1;
+}
+/*Side 2 - Reflection Essay */
+.header-ref{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.843),rgba(72, 78, 98, 0.589)),url(images/reflection.jpg);
+    background-position: center;
+    background-size: cover; /* den strekker bildet for Ã¥ dekke container */
+}
+
+/* Side x */
+.topical-avsnitt{
+    text-align: center;
+    margin: 7vw 10vh 5vw 10vh;
+}
+
+.tavle {
+    display: block;
+    align-items: center; 
+    margin: 2% 5% 3% 5%;
+    border-radius: 1rem;
+    background-color: yellow;
+    box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+}
+
+.flextavle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flextavle > * {
+    margin: 2%;
+    background-color: rgb(51, 131, 235);
+    border-radius: 1rem;
+    display: block;
+}
+
+.box1 > *{
+    margin: 2% 4% 2% 3%;
+    float: left;
+}
+
+.box2 > * {
+    float: right;
 }
