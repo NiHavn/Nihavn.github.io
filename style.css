@@ -157,8 +157,8 @@ footer{
 }
 h4{
     font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .medias{
     margin-top: 20px;
@@ -168,22 +168,66 @@ h4{
     align-items: center;
 }
 .medias img{
+    height: 70px;
+    width: 70px;
     border-radius: 60px;
-    margin: 20px;
+    margin: 10px;
     transition: 1.5s;
 }
 .medias img:hover{
     opacity: 1;
 }
 /*Side 2 - Reflection Essay */
-.header-ref{
-    min-height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.843),rgba(72, 78, 98, 0.589)),url(images/reflection.jpg);
-    background-position: center;
-    background-size: cover; /* den strekker bildet for Ã¥ dekke container */
+.pic{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   text-align: center;
 }
-
+.pic img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    max-width: 100%;
+}
+.front-text{
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+}
+.front-text p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.tavle-reflect {
+    display: block;
+    align-items: center; 
+    margin: 2% 5% 5% 5%;
+    border-radius: 1rem;
+    background-color: yellow;
+    box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+}
+.flextavle-reflect {
+    margin-bottom: 50px;
+}
+.screenshot1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screenshot1 img{
+    height: 384px;
+    width: 554px;
+}
+.screenshot1 p{
+    max-width: 400px;
+    margin-left: 40px;
+}
 /* Side x */
 .topical-avsnitt{
     text-align: center;
