@@ -212,8 +212,8 @@ h4{
     background-color: #5bd1d7;
     box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
-.flextavle-reflect {
-    margin-bottom: 50px;
+.tavle-reflect > h2{
+    margin-top: 80px;
 }
 .screenshot1{
     display: flex;
