@@ -10,7 +10,7 @@ body{
     line-height: 1.5;
 }
 .header{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.658),rgba(4, 9, 30, 0.589)),url(images/OsloMet.jpg);
     background-position: center;
@@ -20,27 +20,27 @@ body{
     position: relative;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color:  #ffd500;
-    box-shadow: 3px 5px 4px #000000;
+    box-shadow: 2px 2px 2px #000000;
 }
 .flex-container1 > div { 
     margin: 5px;
     padding: 5px;
     font-size: 20px;
+    
 }
 .flex-container1 > div > a {
     transition: 1s;
     color: rgb(0, 0, 0);
     font-weight: 650;
     text-decoration: none;
+    
 }
 .flex-container1 > div > a:hover {
-    border-color: #ffd500;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    font-size: 115%;
+    font-size: 110%;
+    
 }
 .side {
     max-width: 90vw;
@@ -125,7 +125,7 @@ h2{
 }
 .box a{
     font-weight: 600;
-    color: blue;
+    color: #5bd1d7;
     text-decoration: none;
     height: 50px;
     width: 140px;
@@ -209,7 +209,7 @@ h4{
     align-items: center; 
     margin: 2% 5% 5% 5%;
     border-radius: 1rem;
-    background-color: yellow;
+    background-color: #5bd1d7;
     box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
 .flextavle-reflect {
@@ -236,31 +236,54 @@ h4{
 
 .tavle {
     display: block;
-    align-items: center; 
     margin: 2% 5% 3% 5%;
     border-radius: 1rem;
-    background-color: yellow;
+    background-color: #ffd500;
     box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
 
 .flextavle {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
 }
 
 .flextavle > * {
-    margin: 2%;
-    background-color: rgb(51, 131, 235);
-    border-radius: 1rem;
-    display: block;
+    border-radius: 5px;
+    background-color: #ffd500;
+    margin: 3rem;
+    flex-direction: row;
 }
 
-.box1 > *{
-    margin: 2% 4% 2% 3%;
-    float: left;
+.left {
+    flex-direction: column;
+    flex: 50%;
+    background-color: white;
+    
 }
 
-.box2 > * {
-    float: right;
+.right {
+    flex-direction: column;
+    flex: 50%;
+    background-color: blue;
+
+}
+
+.box1{
+    margin: 2% 2% 0% 2% ;
+    background-color: burlywood;
+}
+
+.box2 {
+    margin: 2% 2% 0% 2%;
+    background-color: crimson;
+}
+
+@media only screen and (max-width: 700px) {
+    .flex-container1{
+               
+    }
+
+    .flextavle{
+        flex-direction: column;
+    }
 }
