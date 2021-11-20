@@ -125,7 +125,7 @@ h2{
 }
 .box a{
     font-weight: 600;
-    color: #5bd1d7;
+    color: blue;
     text-decoration: none;
     height: 50px;
     width: 140px;
@@ -212,9 +212,6 @@ h4{
     background-color: #5bd1d7;
     box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
-.tavle-reflect > h2{
-    margin-top: 80px;
-}
 .screenshot1{
     display: flex;
     align-items: center;
@@ -228,11 +225,41 @@ h4{
     max-width: 400px;
     margin-left: 40px;
 }
+.flextavle-reflect > h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
 /* Side x */
 .topical-avsnitt{
     text-align: center;
     margin: 7vw 10vh 5vw 10vh;
 }
+.pic2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+ }
+ .pic2 img{
+     height: 350px;
+     width: 100%;
+     object-fit: cover;
+     object-position: 100% 0;
+     max-width: 100%;
+ }
+ .front-text2{
+     font-size: 25px;
+     position: absolute;
+     top: 40%;
+     left: 60%;
+     transform: translate(-50%,-50%);
+     max-width: 100%;
+ }
+ .front-text2 p{
+     margin-top: 10px;
+     font-size: 20px;
+ }
 
 .tavle {
     display: block;
@@ -280,6 +307,33 @@ h4{
     background-color: crimson;
     border-radius: 1%;
 }
+
+.pic3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+ }
+ .pic3 img{
+     height: 350px;
+     width: 100%;
+     object-fit: cover;
+     object-position: 100% 0;
+     max-width: 100%;
+ }
+ .front-text3{
+     font-size: 25px;
+     position: absolute;
+     top: 40%;
+     left: 57%;
+     transform: translate(-50%,-50%);
+     max-width: 100%;
+ }
+ .front-text3 p{
+     margin-top: 10px;
+     font-size: 20px;
+ }
 
 @media only screen and (max-width: 700px) {
     .flex-container1{
