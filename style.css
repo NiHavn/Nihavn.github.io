@@ -216,61 +216,86 @@ h4 {
   font-size: 20px;
 }
 .tavle-reflect {
-  display: block;
-  align-items: center;
-  margin: 2% 5% 5% 5%;
-  border-radius: 1rem;
-  background-color: #5bd1d7;
-  box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+    display: block;
+    align-items: center; 
+    margin: 40px 5% 40px 5%;
+    border-radius: 1rem;
+    background-color: #5bd1d7;
+    box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
-.screenshot1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.screenshot1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.screenshot1 img {
-  height: 384px;
-  width: 554px;
+.screenshot1 img{
+    height: 384px;
+    width: 554px;
 }
-.screenshot1 p {
-  max-width: 400px;
-  margin-left: 40px;
+.screenshot1 p{
+    max-width: 400px;
+    margin-left: 40px;
 }
-.flextavle-reflect > h3 {
-  margin-top: 30px;
-  font-size: 25px;
+.screenshot2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screenshot2 img{
+    height: 384px;
+    width: 554px;
+}
+.screenshot2 p{
+    max-width: 400px;
+    margin-left: 40px;
+}
+.flextavle-reflect > h3{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.flextavle-reflect > p{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    
 }
 /* Side x */
-.topical-avsnitt {
-  text-align: center;
-  margin: 7vw 10vh 5vw 10vh;
+.topical-avsnitt{
+    text-align: center;
+    margin: 7vw 10vh 5vw 10vh;
 }
-.pic2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-.pic2 img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 100% 0;
-  max-width: 100%;
-}
-.front-text2 {
-  font-size: 25px;
-  position: absolute;
-  top: 40%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-}
-.front-text2 p {
-  margin-top: 10px;
-  font-size: 20px;
-}
+.pic2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+ }
+ .pic2 img{
+     height: 350px;
+     width: 100%;
+     object-fit: cover;
+     object-position: 100% 0;
+     max-width: 100%;
+ }
+ #ln::after{
+     content: "\a";
+     white-space: pre;
+ }
+ .front-text2{
+     font-size: 25px;
+     position: absolute;
+     top: 40%;
+     left: 53%;
+     transform: translate(-50%,-50%);
+     max-width: 100%;
+ }
+ .front-text2 p{
+     margin-top: 10px;
+     font-size: 20px;
+ }
 
 .tavle {
   display: block;
@@ -325,6 +350,7 @@ h4 {
   padding: 2% 2% 2% 2%;
 }
 
+<<<<<<< Updated upstream
 .pic3 {
   display: flex;
   align-items: center;
@@ -351,6 +377,34 @@ h4 {
   margin-top: 10px;
   font-size: 20px;
 }
+=======
+.pic3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+ }
+ .pic3 img{
+     height: 350px;
+     width: 100%;
+     object-fit: cover;
+     object-position: 100% 0;
+     max-width: 100%;
+ }
+ .front-text3{
+     font-size: 25px;
+     position: absolute;
+     top: 40%;
+     left: 52%;
+     transform: translate(-50%,-50%);
+     max-width: 100%;
+ }
+ .front-text3 p{
+     margin-top: 10px;
+     font-size: 20px;
+ }
+>>>>>>> Stashed changes
 
 @media only screen and (max-width: 700px) {
   .flex-container1 {
