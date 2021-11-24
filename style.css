@@ -46,6 +46,11 @@ body {
 .logoimg {
   font-size: 100% !important;
 }
+/* Hamburger menu */
+
+
+
+/* End of hamburger menu */
 .side {
   max-width: 90vw;
   display: inline-block;
@@ -348,6 +353,8 @@ h4 {
   border-radius: 3%;
   padding: 2% 2% 2% 2%;
 }
+
+}
 /*Fun Page */
 body, html {
   height: 100%;
@@ -400,7 +407,7 @@ element.style {
   color: #666;
 }
 .del2 {
-  background-image: url(../img/OperaH2.jpg);
+  background-image: url(images/OperaH2.jpg);
   min-height: 400px;
 }
 .section-dark {
@@ -408,38 +415,6 @@ element.style {
   color: #ddd;
 }
 
-
-
-
-
-<<<<<<< Updated upstream
-.pic3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-.pic3 img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 100% 0;
-  max-width: 100%;
-}
-.front-text3 {
-  font-size: 25px;
-  position: absolute;
-  top: 40%;
-  left: 57%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-}
-.front-text3 p {
-  margin-top: 10px;
-  font-size: 20px;
-}
-=======
 .pic3{
     display: flex;
     align-items: center;
@@ -466,7 +441,6 @@ element.style {
      margin-top: 10px;
      font-size: 20px;
  }
->>>>>>> Stashed changes
 
 @media only screen and (max-width: 600px) {
   .flex-container1 {
