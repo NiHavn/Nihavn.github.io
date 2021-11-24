@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  
+}
 html{
   height: 100%;
 }
@@ -11,6 +17,7 @@ body {
   background-color: rgb(255, 255, 255);
   text-align: center;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
 }
 .header {
   height: 100vh;
@@ -23,7 +30,7 @@ body {
   background-position: center;
   background-size: cover; /* den strekker bildet for Ã¥ dekke container */
 }
-.flex-container1 {
+.flex-container1{
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -31,6 +38,7 @@ body {
   align-items: center;
   background-color: #ffd500;
   box-shadow: 2px 2px 2px #000000;
+  
 }
 .flex-container1 > div {
   margin: 5px;
@@ -178,7 +186,6 @@ body {
 footer {
   margin-top: 70px;
   background-color: #ffd500;
-  border-radius: 1rem;
 }
 .feet {
   display: flex;
@@ -240,8 +247,21 @@ footer {
   
 }
 
+.tavle {
+  display: block;
+  margin: 2% 5% 3% 5%;
+  border-radius: 1rem;
+  background-color: #F3DB74FF;
+  box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+}
+
+.flextavle {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2% 2% 2%;
+}
 .screenshot1{
-   
+   background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,32 +271,30 @@ footer {
 }
 
 .screenshot2{
-    
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     margin: 6% 0 6% 0;
     Padding: 2% 2% 2% 2%;
+    
 }
 
-.flextavle > .screenshot1, .screenshot2 > img {
-  border-radius: 1%;
-}
 
-.ssright {
+.screenshot1,
+.screenshot2 {
   border:black solid;
   border-radius: 2%;
-  margin-left: 2%;
   padding: 2% 2% 2% 2%;
-}
-.ssleft2 {
-  border: black solid;
-  border-radius: 2%;
-  margin-right: 2%;
-  padding: 2% 2% 2% 2%;
+  
 }
 
+.bilde{
+  height: 384px;
+  width: 554px;
+  border-radius: 4px;
+}
 /* Side x */
 .topical-avsnitt{
     text-align: center;
@@ -312,59 +330,12 @@ footer {
      margin-top: 10px;
      font-size: 20px;
  }
-
-.tavle {
-  display: block;
-  margin: 2% 5% 3% 5%;
-  border-radius: 1rem;
-  background-color: #5bd1d7;
-  box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
-}
-
-.flextavle {
-  display: flex;
-  flex-direction: column;
-  padding: 2% 2% 2% 2%;
-}
-/*
-.flextavle > * {
-  border-radius: 5px;
-  background-color: #5bd1d7;
-  margin: 3rem;
-  flex-direction: row;
-}
-*/
-.left {
-  flex-direction: column;
-  flex: 50%;
-  background-color: white;
-  height: fit-content;
-}
-
-.right {
-  flex-direction: column;
-  flex: 50%;
-  background-color: white;
-  height: fit-content;
-}
-
-.box1 {
-  margin: 4% 2% 4% 2%;
-  padding: 2% 2% 2% 2%;
-  border-radius: 1%;
-  border: rgb(0, 0, 0) solid;
-}
-
-.box2 {
-  margin: 2% 2% 4% 2%;
-  background-color: crimson;
-  border-radius: 1%;
-}
 .box3 {
   background-color: gray 41, 40, 40, 0, 0.2;
   box-shadow: #000000 0 2px 2px 0;
   border-radius: 3%;
   padding: 2% 2% 2% 2%;
+  width: fit-content;
 }
 
 /*Fun Page */
@@ -455,13 +426,22 @@ element.style {
      font-size: 20px;
  }
 
-@media only screen and (max-width: 800px) {
-  .flex-container1 {
+@media only screen and (max-width: 1000px) {
+  .flextavle > * {
+    flex-direction: column;
 
   }
+  .bilde{
+    height: auto;
+    width: 85%;
+  }
+  .screenshot2 {
+    flex-direction: column-reverse;
+    
+}
 
   .flextavle {
-    flex-direction: column;
+    flex-direction: column-reverse;
     
   }
 }
