@@ -5,7 +5,7 @@
 }
 body {
   color: black;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   line-height: 1.5;
 }
@@ -104,11 +104,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-h2 {
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
+
 .sub-head p {
   font-size: 18px;
   color: rgb(74, 74, 74);
@@ -123,6 +119,7 @@ h2 {
   justify-content: center;
 }
 .box {
+  background-color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -165,11 +162,7 @@ footer {
   align-items: center;
   text-align: center;
 }
-h4 {
-  font-size: 25px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+
 .medias {
   margin-top: 20px;
   list-style: none;
@@ -215,52 +208,50 @@ h4 {
   margin-top: 10px;
   font-size: 20px;
 }
-.tavle-reflect {
-    display: block;
-    align-items: center; 
-    margin: 40px 5% 40px 5%;
-    border-radius: 1rem;
-    background-color: #5bd1d7;
-    box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+.undertittel {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  
 }
+
 .screenshot1{
+   
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
+    margin: 6% 0 6% 0;
+    Padding: 2% 2% 2% 2%;
 }
-.screenshot1 img{
-    height: 384px;
-    width: 554px;
-}
-.screenshot1 p{
-    max-width: 400px;
-    margin-left: 40px;
-}
+
 .screenshot2{
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
+    margin: 6% 0 6% 0;
+    Padding: 2% 2% 2% 2%;
 }
-.screenshot2 img{
-    height: 384px;
-    width: 554px;
+
+.flextavle > .screenshot1, .screenshot2 > img {
+  border-radius: 1%;
 }
-.screenshot2 p{
-    max-width: 400px;
-    margin-left: 40px;
+
+.ssright {
+  border:black solid;
+  border-radius: 2%;
+  margin-left: 2%;
+  padding: 2% 2% 2% 2%;
 }
-.flextavle-reflect > h3{
-    margin-top: 30px;
-    font-size: 25px;
-    margin-bottom: 30px;
+.ssleft2 {
+  border: black solid;
+  border-radius: 2%;
+  margin-right: 2%;
+  padding: 2% 2% 2% 2%;
 }
-.flextavle-reflect > p{
-    margin-top: 50px;
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    
-}
+
 /* Side x */
 .topical-avsnitt{
     text-align: center;
@@ -307,16 +298,17 @@ h4 {
 
 .flextavle {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 2% 2% 2% 2%;
 }
-
+/*
 .flextavle > * {
   border-radius: 5px;
   background-color: #5bd1d7;
   margin: 3rem;
   flex-direction: row;
 }
-
+*/
 .left {
   flex-direction: column;
   flex: 50%;
@@ -345,39 +337,11 @@ h4 {
 }
 .box3 {
   background-color: gray 41, 40, 40, 0, 0.2;
-  box-shadow: #000000 0 3px 10px 0;
+  box-shadow: #000000 0 2px 2px 0;
   border-radius: 3%;
   padding: 2% 2% 2% 2%;
 }
 
-<<<<<<< Updated upstream
-.pic3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-}
-.pic3 img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 100% 0;
-  max-width: 100%;
-}
-.front-text3 {
-  font-size: 25px;
-  position: absolute;
-  top: 40%;
-  left: 57%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-}
-.front-text3 p {
-  margin-top: 10px;
-  font-size: 20px;
-}
-=======
 .pic3{
     display: flex;
     align-items: center;
@@ -404,13 +368,14 @@ h4 {
      margin-top: 10px;
      font-size: 20px;
  }
->>>>>>> Stashed changes
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .flex-container1 {
+
   }
 
   .flextavle {
     flex-direction: column;
+    
   }
 }
