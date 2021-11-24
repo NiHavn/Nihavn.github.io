@@ -411,9 +411,6 @@ element.style {
   color: #ddd;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 900px) {
-=======
 /* End of Fun Page */
 .pic3{
     display: flex;
@@ -443,7 +440,6 @@ element.style {
  }
 
 @media only screen and (max-width: 800px) {
->>>>>>> 911121a489b626652cfbf97e627ea44f7ff3f51f
   .flex-container1 {
 
   }
