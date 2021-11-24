@@ -354,9 +354,8 @@ h4 {
   padding: 2% 2% 2% 2%;
 }
 
-}
 /*Fun Page */
-body, html {
+.fun-body {
   height: 100%;
   margin: 0;
   font-size: 16px;
@@ -374,7 +373,7 @@ body, html {
   opacity: 0.70;
 }
 .del1 {
-  background-image: url(../img/Opening.jpg);
+  background-image: url(images/Opening.jpg);
       min-height: 100%;
 }
 element.style {
@@ -415,6 +414,7 @@ element.style {
   color: #ddd;
 }
 
+/* End of Fun Page */
 .pic3{
     display: flex;
     align-items: center;
