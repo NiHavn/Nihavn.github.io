@@ -223,9 +223,12 @@ element.style {
   height: 400px;
 }
 .del7 {
-  background-image: url(/images/restaurant.jfif);
+background-image: url(/images/restaurant.jfif);
   height: 400px;
+  background-color: white;
+  text-align: center;
 }
+
 /* End of Fun Page */
 @media only screen and (max-width: 1000px) {
   .icon {
