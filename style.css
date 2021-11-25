@@ -10,7 +10,7 @@ html {
 }
 body {
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: #faf0ca;
   text-align: center;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
@@ -32,7 +32,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #fcbb42;
+  background-color: #f4d35e;
   color: white;
 }
 .flex-container1 > div {
@@ -54,19 +54,29 @@ body {
 }
 /* Hamburger menu */
 .icon {
+  display: none;
   cursor: pointer;
 }
 .out {
+  height: 210px;
+  width: 130px;
   display: none;
   background-color: lightgray;
-  box-shadow: 0 3px 3px 3px;
+  box-shadow: 0 1px 1px 1px rgba(194, 190, 188, 0.476) ;
   z-index: 1;
   position: absolute;
-  margin-right: 20px;
+  right: 50%;
+  left: 46%;
+}
+.out > div{
+  margin: 6px;
 }
 .out > div > a {
   text-decoration: none;
   color: black;
+}
+.out > div:hover {
+  background-color: gray;
 }
 .hamburger:hover .out {
   display: block;
@@ -182,7 +192,7 @@ body {
 }
 footer {
   margin-top: 70px;
-  background-color: #ffd500;
+  background-color: #f4d35e;
 }
 .feet {
   display: flex;
@@ -248,7 +258,7 @@ footer {
   margin: 2% 5% 3% 5%;
   padding-top: 2%;
   border-radius: 1rem;
-  background-color: #f3db74ff;
+  background-color: #ee964b;
   box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
 
@@ -261,7 +271,7 @@ footer {
   margin: 2% 2% 2% 2%;
 }
 .screenshot1 {
-  background-color: rgb(255, 255, 255);
+  background-color: #faf0ca;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +281,7 @@ footer {
 }
 
 .screenshot2 {
-  background-color: rgb(255, 255, 255);
+  background-color: #faf0ca;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -426,19 +436,27 @@ element.style {
   font-size: 20px;
 }
 /*Tablet and Mobile */
+
 @media only screen and (max-width: 1000px) {
   .flextavle > * {
     flex-direction: column;
   }
   .bilde {
     height: auto;
-    width: 85%;
+    width: 80%;
+    object-fit: cover;
   }
   .screenshot2 {
     flex-direction: column-reverse;
   }
-
-  .flextavle {
-    flex-direction: column-reverse;
+  .flex-container1{
+    justify-content: space-around;
   }
+  .flexbox-item-2, .flexbox-item-3, 
+  .flexbox-item-4, .flexbox-item-5{
+    display: none;
+  }
+.icon{
+  display: block;
+}
 }
