@@ -246,6 +246,7 @@ footer {
 .tavle {
   display: block;
   margin: 2% 5% 3% 5%;
+  padding-top: 2%;
   border-radius: 1rem;
   background-color: #f3db74ff;
   box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
