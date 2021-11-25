@@ -59,15 +59,20 @@ body {
 }
 /* Hamburger menu */
 .icon{
+  display: none;
   cursor: pointer;
 }
 .out{
   display: none;
-  background-color: lightgray;
-  box-shadow: 0 3px 3px 3px;
+  background-color: rgb(255, 255, 255);
+  width: 175px;
+  height: 160px;
+  box-shadow: 0 1px 1px 1px rgb(rgba(95, 48, 48, 0.438), green, blue);
+  border-radius: 15px;
   z-index: 1;
   position: absolute;
-  margin-right: 20px;
+  right:50%;
+  left: 38%;
 }
 .out > div > a{
   text-decoration: none;
@@ -425,6 +430,19 @@ element.style {
      margin-top: 10px;
      font-size: 20px;
  }
+
+@media only screen and (max-width: 700px) {
+   .flex-container1{
+     justify-content: space-evenly;
+   }
+   .flexbox-item-2, .flexbox-item-3, .flexbox-item-4,
+    .flexbox-item-5{
+     display: none;
+   }
+  .icon{
+    display: block;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .flextavle > * {
