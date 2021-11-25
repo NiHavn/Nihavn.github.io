@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
-a{
-  font-family: 'Montserrat', sans-serif;
-  
+a {
+  font-family: "Montserrat", sans-serif;
 }
-html{
+html {
   height: 100%;
 }
 * {
@@ -17,7 +16,7 @@ body {
   background-color: rgb(255, 255, 255);
   text-align: center;
   line-height: 1.5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .header {
   height: 100vh;
@@ -30,7 +29,7 @@ body {
   background-position: center;
   background-size: cover; /* den strekker bildet for Ã¥ dekke container */
 }
-.flex-container1{
+.flex-container1 {
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -38,7 +37,6 @@ body {
   align-items: center;
   background-color: #ffd500;
   box-shadow: 2px 2px 2px #000000;
-  
 }
 .flex-container1 > div {
   margin: 5px;
@@ -58,10 +56,10 @@ body {
   font-size: 100% !important;
 }
 /* Hamburger menu */
-.icon{
+.icon {
   cursor: pointer;
 }
-.out{
+.out {
   display: none;
   background-color: lightgray;
   box-shadow: 0 3px 3px 3px;
@@ -69,14 +67,13 @@ body {
   position: absolute;
   margin-right: 20px;
 }
-.out > div > a{
+.out > div > a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-.hamburger:hover .out{
-  display:block;
+.hamburger:hover .out {
+  display: block;
 }
-
 
 /* End of hamburger menu */
 .side {
@@ -244,14 +241,13 @@ footer {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 40px;
-  
 }
 
 .tavle {
   display: block;
   margin: 2% 5% 3% 5%;
   border-radius: 1rem;
-  background-color: #F3DB74FF;
+  background-color: #f3db74ff;
   box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
 }
 
@@ -260,76 +256,76 @@ footer {
   flex-direction: column;
   padding: 2% 2% 2% 2%;
 }
-.screenshot1{
-   background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    margin: 6% 0 6% 0;
-    Padding: 2% 2% 2% 2%;
+.flextavle > p {
+  margin: 2% 2% 2% 2%;
+}
+.screenshot1 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 6% 0 6% 0;
+  padding: 2% 2% 2% 2%;
 }
 
-.screenshot2{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    margin: 6% 0 6% 0;
-    Padding: 2% 2% 2% 2%;
-    
+.screenshot2 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 6% 0 6% 0;
+  padding: 2% 2% 2% 2%;
 }
-
 
 .screenshot1,
 .screenshot2 {
-  border:black solid;
+  border: black solid;
   border-radius: 2%;
   padding: 2% 2% 2% 2%;
-  
 }
 
-.bilde{
+.bilde {
   height: 384px;
   width: 554px;
   border-radius: 4px;
 }
 /* Side x */
-.topical-avsnitt{
-    text-align: center;
-    margin: 7vw 10vh 5vw 10vh;
+.topical-avsnitt {
+  text-align: center;
+  margin: 7vw 10vh 5vw 10vh;
 }
-.pic2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center;
- }
- .pic2 img{
-     height: 350px;
-     width: 100%;
-     object-fit: cover;
-     object-position: 100% 0;
-     max-width: 100%;
- }
- #ln::after{
-     content: "\a";
-     white-space: pre;
- }
- .front-text2{
-     font-size: 25px;
-     position: absolute;
-     top: 40%;
-     left: 53%;
-     transform: translate(-50%,-50%);
-     max-width: 100%;
- }
- .front-text2 p{
-     margin-top: 10px;
-     font-size: 20px;
- }
+.pic2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.pic2 img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  max-width: 100%;
+}
+#ln::after {
+  content: "\a";
+  white-space: pre;
+}
+.front-text2 {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.front-text2 p {
+  margin-top: 10px;
+  font-size: 20px;
+}
 .box3 {
   background-color: gray 41, 40, 40, 0, 0.2;
   box-shadow: #000000 0 2px 2px 0;
@@ -348,17 +344,19 @@ footer {
   line-height: 1.8em;
   color: #666;
 }
-.del1, .del2, .del3 {
+.del1,
+.del2,
+.del3 {
   position: relative;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.70;
+  opacity: 0.7;
 }
 .del1 {
   background-image: url(images/Opening.jpg);
-      min-height: 100%;
+  min-height: 100%;
 }
 element.style {
   display: none;
@@ -399,49 +397,46 @@ element.style {
 }
 
 /* End of Fun Page */
-.pic3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center;
- }
- .pic3 img{
-     height: 350px;
-     width: 100%;
-     object-fit: cover;
-     object-position: 100% 0;
-     max-width: 100%;
- }
- .front-text3{
-     font-size: 25px;
-     position: absolute;
-     top: 40%;
-     left: 52%;
-     transform: translate(-50%,-50%);
-     max-width: 100%;
- }
- .front-text3 p{
-     margin-top: 10px;
-     font-size: 20px;
- }
+.pic3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.pic3 img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  max-width: 100%;
+}
+.front-text3 {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.front-text3 p {
+  margin-top: 10px;
+  font-size: 20px;
+}
 
 @media only screen and (max-width: 1000px) {
   .flextavle > * {
     flex-direction: column;
-
   }
-  .bilde{
+  .bilde {
     height: auto;
     width: 85%;
   }
   .screenshot2 {
     flex-direction: column-reverse;
-    
-}
+  }
 
   .flextavle {
     flex-direction: column-reverse;
-    
   }
 }
