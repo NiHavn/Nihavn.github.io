@@ -1,176 +1,462 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Verdana',sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+html {
+  height: 100%;
 }
-body{
-    color:black;;
-    background-color: white;
-    text-align: center;
-    line-height: 1.5;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", sans-serif;
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.658),rgba(4, 9, 30, 0.589)),url(images/OsloMet.jpg);
-    background-position: center;
-    background-size: cover; /* den strekker bildet for Ã¥ dekke container */
+body {
+  color: black;
+  background-color: #faf0ca;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.658),
+      rgba(4, 9, 30, 0.589)
+    ),
+    url(images/OsloMet.jpg);
+  background-position: center;
+  background-size: cover; /* den strekker bildet for Ã¥ dekke container */
 }
 .flex-container1 {
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color:  #ffd500;
-    box-shadow: 3px 5px 4px #000000;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f4d35e;
+  color: white;
 }
-.flex-container1 > div { 
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
+.flex-container1 > div {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
 }
 .flex-container1 > div > a {
-    transition: 1s;
-    color: rgb(0, 0, 0);
-    font-weight: 650;
-    text-decoration: none;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+  text-decoration: none;
 }
 .flex-container1 > div > a:hover {
-    border-color: #ffd500;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    font-size: 115%;
+  font-size: 110%;
 }
-.side {
-    max-width: 90vw;
-    display: inline-block;
-    box-sizing: border-box;
-    padding-top: 175px;
+.logoimg {
+  font-size: 100% !important;
+}
+/* Hamburger menu */
+.icon {
+  display: none;
+  cursor: pointer;
+}
+.out {
+  height: 210px;
+  width: 130px;
+  display: none;
+  background-color: lightgray;
+  box-shadow: 0 1px 1px 1px rgba(194, 190, 188, 0.476) ;
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  left: 46%;
+}
+.out > div{
+  margin: 6px;
+}
+.out > div > a {
+  text-decoration: none;
+  color: black;
+}
+.out > div:hover {
+  background-color: gray;
+}
+.hamburger:hover .out {
+  display: block;
+}
 
+/* End of hamburger menu */
+.side {
+  max-width: 90vw;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 175px;
 }
+.språkvalg {
+  padding: 2% 2% 2% 2%;
+  border-radius: 2%;
+  text-decoration: underline;
+}
+
 .tittel {
-    font-size: 30px;
-    color: white;
+  font-size: 30px;
+  color: white;
 }
-.avsnitt p{
-    color: white;
-    margin: 20px;
+.avsnitt p {
+  color: white;
+  margin: 20px;
 }
-.mer{
-    display: inline-block;
-    border: 1px solid white;
-    padding: 20px;
-    margin-top: 60px;
-    border-radius: 10px;
-    font-size: 20px;
-    transition: 1.5s;
-    color: white;
+.mer {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+  color: white;
 }
-.mer a{
-    color: white;
-    text-decoration: none;
+.mer a {
+  color: white;
+  text-decoration: none;
 }
-.mer:hover{
-    background-color: black;
+.mer:hover {
+  background-color: black;
 }
 
 .innhold {
-    display: flex;
-    display: inline-block;
-    justify-content: space-around;
-    flex-direction: row;
-    padding-left: 5rem;
-    padding-right: 5rem;
+  display: flex;
+  display: inline-block;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .innhold > div {
-    max-width: 40%;
+  max-width: 40%;
 }
 /* Mye flexbox her. flex-box: column betyr at elementene sorteres fra topp til bunn i stedet venstre til høyre. Ellers har jeg bare sentrert diverse elementer. - Gisle */
 
-.sub-head{      
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.sub-head {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-h2{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 40px;
-}
-.sub-head p {
-    font-size: 18px;
-    color: rgb(74, 74, 74);
-    width: 40%;
-    text-align: center;
-    font-style: italic;
-}
-.gruppe1{
-    display: flex;
-    margin-top: 40px;
-}
-.box{
-    display: flex;
-    align-items: center;
-    flex-direction: column; 
-    text-align: center;
-    width: 200px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px rgba(255, 151, 103, 0.34);
-    margin: 15px;
-    flex-grow: 1; /* Fikk hjelp av en TA, trenger flex-grow 1 for å spre elementene fra hverandre */
-}
-.box a{
-    font-weight: 600;
-    color: blue;
-    text-decoration: none;
-    height: 50px;
-    width: 140px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-    border-radius: 10px;
-    transition: 1.5s;
-}
-.box > a:hover{
-    font-size: 115%;
-    background-color: #ffd500;
-}
-footer{
-    margin-top: 70px;
-    background-color: #ffd500;
-}
-.feet{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 
+.sub-head p {
+  font-size: 18px;
+  color: rgb(74, 74, 74);
+  width: 40%;
+  text-align: center;
+  font-style: italic;
 }
-h4{
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.gruppe1 {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.medias{
-    margin-top: 20px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(255, 151, 103, 0.34);
+  margin: 15px;
+  flex-grow: 1; /* Fikk hjelp av en TA, trenger flex-grow 1 for å spre elementene fra hverandre */
 }
-.medias img{
-    border-radius: 60px;
-    margin: 20px;
-    transition: 1.5s;
+.box a {
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  height: 50px;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: sub;
+  border: 1px solid red;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-.medias img:hover{
-    opacity: 1;
+.box img {
+  margin-bottom: 2%;
+}
+.box > a:hover {
+  font-size: 115%;
+  background-color: #ffd500;
+}
+footer {
+  margin-top: 70px;
+  background-color: #f4d35e;
+}
+.feet {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.medias {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.medias img {
+  height: 70px;
+  width: 70px;
+  border-radius: 60px;
+  margin: 10px;
+  transition: 0.5s;
+}
+.medias img:hover {
+  opacity: 0.8;
+  background-color: #0713f8;
+}
+/*Side 2 - Reflection Essay */
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.pic img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  max-width: 100%;
+}
+.front-text {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.front-text p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.undertittel {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.tavle {
+  display: block;
+  margin: 2% 5% 3% 5%;
+  padding-top: 2%;
+  border-radius: 1rem;
+  background-color: #ee964b;
+  box-shadow: 6px 6px 10px rgba(255, 151, 103, 0.34);
+}
+
+.flextavle {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 2% 2% 2%;
+}
+.flextavle > p {
+  margin: 2% 2% 2% 2%;
+}
+.screenshot1 {
+  background-color: #faf0ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 6% 0 6% 0;
+  padding: 2% 2% 2% 2%;
+}
+
+.screenshot2 {
+  background-color: #faf0ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 6% 0 6% 0;
+  padding: 2% 2% 2% 2%;
+}
+
+.screenshot1,
+.screenshot2 {
+
+  border-radius: 2%;
+  padding: 2% 2% 2% 2%;
+}
+
+.bilde {
+  height: 384px;
+  width: 554px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+/* Side x */
+.topical-avsnitt {
+  text-align: center;
+  margin: 7vw 10vh 5vw 10vh;
+}
+.pic2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.pic2 img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  max-width: 100%;
+}
+#ln::after {
+  content: "\a";
+  white-space: pre;
+}
+.front-text2 {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.front-text2 p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.box3 {
+  background-color: gray 41, 40, 40, 0, 0.2;
+  box-shadow: #000000 0 2px 2px 0;
+  border-radius: 3%;
+  padding: 2% 2% 2% 2%;
+  width: fit-content;
+}
+
+/*Fun Page */
+.fun-body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.del1,
+.del2,
+.del3 {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+.del1 {
+  background-image: url(images/Opening.jpg);
+  min-height: 100%;
+}
+element.style {
+  display: none;
+}
+.textp .front {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.textp {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textp .main {
+  background-color: aliceblue;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.del2 {
+  background-image: url(images/OperaH2.jpg);
+  min-height: 400px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* End of Fun Page */
+.pic3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+.pic3 img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  max-width: 100%;
+}
+.front-text3 {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.front-text3 p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+/*Tablet and Mobile */
+
+@media only screen and (max-width: 1000px) {
+  .flextavle > * {
+    flex-direction: column;
+  }
+  .bilde {
+    height: auto;
+    width: 80%;
+    object-fit: cover;
+  }
+  .screenshot2 {
+    flex-direction: column-reverse;
+  }
+  .flex-container1{
+    justify-content: space-around;
+  }
+  .flexbox-item-2, .flexbox-item-3, 
+  .flexbox-item-4, .flexbox-item-5{
+    display: none;
+  }
+.icon{
+  display: block;
+}
 }
