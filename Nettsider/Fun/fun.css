@@ -152,12 +152,12 @@ body {
 element.style {
   display: none;
 }
-.textp .front {
+.frontp .front {
   background-color: #111;
   color: #fff;
   padding: 20px;
 }
-.textp {
+.frontp {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -198,10 +198,7 @@ element.style {
   position: absolute;
   background-color: rgb(255, 255, 255, 0);
 }
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
-}
+
 .del3 {
   background-image: url(/images/Frognerparken.jpg);
   min-height: 400px;
@@ -223,10 +220,17 @@ element.style {
   height: 400px;
 }
 .del7 {
-background-image: url(/images/restaurant.jfif);
+  background-image: url(/images/restaurant.jfif);
   height: 400px;
+}
+.section-footer {
   background-color: white;
   text-align: center;
+  color: #343a40;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 93%;
 }
 
 /* End of Fun Page */
