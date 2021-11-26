@@ -43,7 +43,7 @@ p {
 .flex-container1 > div {
   margin: 5px;
   padding: 5px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .flex-container1 > div > a {
   transition: 0.5s;
@@ -280,6 +280,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 2% 2% 2% 2%;
+  overflow: hidden;
 }
 .flextavle > p {
   margin: 2% 2% 2% 2%;
@@ -318,10 +319,10 @@ i {
   margin-left: 2%;
 }
 .bilde {
-  height: 384px;
-  width: 60%;
+  height: 374px;
   border-radius: 4px;
   object-fit: cover;
+  width: auto;
 }
 /* Side x */
 .topical-avsnitt {
@@ -376,7 +377,7 @@ i {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .icon {
     display: block;
   }
