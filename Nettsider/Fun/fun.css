@@ -1,11 +1,11 @@
-/*
+
 header {
   z-index: 1;
   position: absolute;
   width: 100%;
   background-color: white;
 }
-*/
+
 .navigasjon {
   list-style: none;
   width: 100%;
@@ -155,7 +155,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .frontp .front {
@@ -210,14 +210,14 @@ body {
   margin-bottom: auto;
   background-color: white;
 }
-
 .partw {
   text-align: center;
-  padding: 50px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   box-shadow: 0 1px 1px 1px rgba(194, 190, 188, 1);
 }
 .del2 {
-  background-image: url(/images/OperaH2.jpg);
+  background-image: url(/images/Ways.jpg);
   margin-left: auto;
   margin-bottom: auto;
   min-height: 400px;
@@ -303,24 +303,25 @@ body {
   background-color: rgb(255, 255, 255, 0);
 }
 .del5 {
-  background-image: url(/images/Sushi.jfif);
+  background-image: url(/images/restaurant.jpg);
   min-height: 400px;
 }
 .del6 {
-  background-image: url(/images/BurgerFun.jfif);
+  background-image: url(/images/sushi.jpg);
   height: 400px;
 }
 .del7 {
-  background-image: url(/images/restaurant.jfif);
+  background-image: url(/images/restaurant.jpg);
   height: 400px;
 }
 .partw-footer {
-  background-color: rgb(22, 18, 18);
+  background-color: rgb(0, 0, 0);
   text-align: center;
   color: wheat;
   position: absolute;
   width: 100%;
   bottom: 0;
+  
 }
 .bottumpart {
   text-align: center;
@@ -339,7 +340,7 @@ body {
   .navigasjon {
     display: none;
   }
-  #slide-box > * {
+  .column {
     flex-direction: column;
   }
   .bilde {
