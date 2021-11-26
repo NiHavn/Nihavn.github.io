@@ -341,76 +341,12 @@ i {
 
 /*" Hoved-tittel-boks" */
 .header-box {
-  background-color: gray 41, 40, 40, 0, 0.2;
+  background-color: gray (41, 40, 40, 0, 0.2);
   box-shadow: #000000 0 2px 2px 0;
   border-radius: 3%;
   padding: 2% 2% 2% 2%;
   width: fit-content;
 }
-
-/*Fun Page */
-.fun-body {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.8em;
-  color: #666;
-}
-.del1,
-.del2,
-.del3 {
-  position: relative;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.7;
-}
-.del1 {
-  background-image: url(images/Opening.jpg);
-  min-height: 100%;
-}
-element.style {
-  display: none;
-}
-.textp .front {
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
-}
-.textp {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-.textp .main {
-  background-color: aliceblue;
-}
-.section {
-  text-align: center;
-  padding: 50px 80px;
-}
-.section-light {
-  background-color: #f4f4f4;
-  color: #666;
-}
-.del2 {
-  background-image: url(images/OperaH2.jpg);
-  min-height: 400px;
-}
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
-}
-
-/* End of Fun Page */
 
 .header-tekst {
   font-size: 25px;
