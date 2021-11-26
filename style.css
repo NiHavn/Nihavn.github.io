@@ -18,7 +18,7 @@ body {
 }
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 .header {
   height: 100vh;
@@ -84,6 +84,8 @@ p {
 .out > div:hover {
   background-color: gray;
 }
+
+  /* End of hamburger menu */
 .back-to-top {
   position: fixed;
   width: 50px;
@@ -95,8 +97,8 @@ p {
   line-height: 50px;
   color: #0d3b66;
   font-size: 50px;
+
 }
-/* End of hamburger menu */
 .side {
   max-width: 90vw;
   display: inline-block;
@@ -182,6 +184,7 @@ p {
   border-radius: 20px;
   box-shadow: 3px 3px 10px rgba(255, 151, 103, 0.34);
   margin: 15px;
+  padding-top: 1%;
   flex-grow: 1; /* Fikk hjelp av en TA, trenger flex-grow 1 for å spre elementene fra hverandre */
 }
 .box a {
@@ -209,10 +212,12 @@ p {
 }
 /* Footer code */
 footer {
+  
   margin-top: 150px;
   background-color: #f4d35e;
 }
 .feet {
+  
   margin-top: 50px;
   font-size: 20px;
   display: flex;
@@ -314,7 +319,7 @@ i {
 }
 .bilde {
   height: 384px;
-  width: 554px;
+  width: 60%;
   border-radius: 4px;
   object-fit: cover;
 }
