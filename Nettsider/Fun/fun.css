@@ -334,11 +334,14 @@ body {
 
 /* End of Fun Page */
 @media only screen and (max-width: 1000px) {
+  
   .icon {
     display: block;
+    background-color: transparent !important;
   }
   .navigasjon {
     display: none;
+    
   }
   .column {
     flex-direction: column;
