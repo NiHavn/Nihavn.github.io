@@ -83,7 +83,6 @@ p {
 .out > div:hover {
   background-color: gray;
 }
-
 .back-to-top {
   position: fixed;
   width: 50px;
