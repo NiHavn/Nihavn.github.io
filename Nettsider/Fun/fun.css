@@ -303,15 +303,15 @@ body {
   background-color: rgb(255, 255, 255, 0);
 }
 .del5 {
-  background-image: url(/images/Sushi.jfif);
+  background-image: url(/images/restaurant.jpg);
   min-height: 400px;
 }
 .del6 {
-  background-image: url(/images/BurgerFun.jfif);
+  background-image: url(/images/sushi.jpg);
   height: 400px;
 }
 .del7 {
-  background-image: url(/images/restaurant.jfif);
+  background-image: url(/images/tikka.jpg);
   height: 400px;
 }
 .partw-footer {
